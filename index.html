@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#6E1423" />
+  <title>Walimatulurus &mdash; Aisyah &amp; Danial</title>
+  <meta name="description" content="Dengan penuh kesyukuran, kami menjemput anda ke Majlis Perkahwinan Nur Aisyah & Muhammad Danial." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="locked">
+
+  <!-- ============ COVER ============ -->
+  <section id="cover" class="cover">
+    <div class="cover__frame">
+      <svg class="floral floral--tl" viewBox="0 0 120 120" aria-hidden="true"><use href="#floral-corner"/></svg>
+      <svg class="floral floral--tr" viewBox="0 0 120 120" aria-hidden="true"><use href="#floral-corner"/></svg>
+      <svg class="floral floral--bl" viewBox="0 0 120 120" aria-hidden="true"><use href="#floral-corner"/></svg>
+      <svg class="floral floral--br" viewBox="0 0 120 120" aria-hidden="true"><use href="#floral-corner"/></svg>
+
+      <p class="cover__eyebrow">Walimatulurus</p>
+      <div class="cover__divider"><span></span>&#10047;<span></span></div>
+      <h1 class="cover__names">Aisyah<span class="amp">&amp;</span>Danial</h1>
+      <p class="cover__date">15 . 11 . 2026</p>
+      <button id="openBtn" class="btn btn--cover" type="button">
+        <span class="btn__icon">&#9993;</span> Buka Undangan
+      </button>
+    </div>
+    <p class="cover__scroll-hint">Sila buka jemputan</p>
+  </section>
+
+  <!-- ============ MAIN INVITE ============ -->
+  <main id="invite" class="invite" aria-hidden="true">
+
+    <!-- Bismillah / Opening -->
+    <section class="section reveal center">
+      <p class="arabic">&#1576;&#1616;&#1587;&#1618;&#1605;&#1616; &#1575;&#1604;&#1604;&#1607;&#1616; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1618;&#1605;&#1614;&#1606;&#1616; &#1575;&#1604;&#1585;&#1617;&#1614;&#1581;&#1616;&#1610;&#1618;&#1605;&#1616;</p>
+      <div class="divider"><span></span>&#10047;<span></span></div>
+      <p class="lead">Assalamualaikum Warahmatullahi Wabarakatuh<br />&amp; Salam Sejahtera</p>
+      <p class="body">
+        Dengan penuh kesyukuran ke hadrat Ilahi, kami menjemput
+        Dato&rsquo; / Datin / Tuan / Puan / Encik / Cik
+        seisi keluarga ke majlis perkahwinan anakanda kami.
+      </p>
+    </section>
+
+    <!-- Parents + Couple -->
+    <section class="section reveal center">
+      <div class="parents">
+        <p><strong>Haji Ahmad Kamal bin Ismail</strong><br />&amp; Hajah Zaleha binti Osman</p>
+        <p class="parents__and">dan</p>
+        <p><strong>Haji Zulkifli bin Hassan</strong><br />&amp; Hajah Rohana binti Abdullah</p>
+      </div>
+      <p class="body">dengan segala hormatnya menjemput anda ke majlis pernikahan dan resepsi anakanda tersayang</p>
+      <div class="couple">
+        <h2 class="couple__name">Nur Aisyah</h2>
+        <span class="couple__amp">&amp;</span>
+        <h2 class="couple__name">Muhammad Danial</h2>
+      </div>
+      <div class="divider"><span></span>&#10047;<span></span></div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="section reveal center">
+      <p class="section__label">Menghitung Hari</p>
+      <div class="countdown" id="countdown" role="timer" aria-live="off">
+        <div class="cd"><span class="cd__num" data-cd="days">00</span><span class="cd__lbl">Hari</span></div>
+        <div class="cd"><span class="cd__num" data-cd="hours">00</span><span class="cd__lbl">Jam</span></div>
+        <div class="cd"><span class="cd__num" data-cd="mins">00</span><span class="cd__lbl">Minit</span></div>
+        <div class="cd"><span class="cd__num" data-cd="secs">00</span><span class="cd__lbl">Saat</span></div>
+      </div>
+      <p class="countdown__msg" id="countdownMsg" hidden>Alhamdulillah &mdash; hari yang dinanti telah tiba!</p>
+    </section>
+
+    <!-- Event Details -->
+    <section class="section reveal center card">
+      <p class="section__label">Tarikh &amp; Tempat</p>
+      <p class="detail__day">Sabtu</p>
+      <p class="detail__date">15 November 2026</p>
+      <div class="divider divider--sm"><span></span>&#10047;<span></span></div>
+      <p class="detail__time">11:00 pagi &ndash; 4:00 petang</p>
+      <p class="detail__venue"><strong>Dewan Perdana Felda</strong><br />Jalan Gurney, 54000 Kuala Lumpur</p>
+      <div class="btn-row">
+        <a class="btn btn--outline" href="https://waze.com/ul?q=Dewan%20Perdana%20Felda%20Kuala%20Lumpur" target="_blank" rel="noopener">
+          <span class="btn__icon">&#128663;</span> Waze
+        </a>
+        <a class="btn btn--outline" href="https://maps.google.com/?q=Dewan+Perdana+Felda+Kuala+Lumpur" target="_blank" rel="noopener">
+          <span class="btn__icon">&#128205;</span> Google Maps
+        </a>
+      </div>
+    </section>
+
+    <!-- Atur Cara -->
+    <section class="section reveal center">
+      <p class="section__label">Atur Cara Majlis</p>
+      <ul class="timeline">
+        <li><span class="timeline__time">11:00 pagi</span><span class="timeline__event">Ketibaan tetamu</span></li>
+        <li><span class="timeline__time">12:30 t/hari</span><span class="timeline__event">Ketibaan pengantin</span></li>
+        <li><span class="timeline__time">1:00 petang</span><span class="timeline__event">Jamuan makan beradab</span></li>
+        <li><span class="timeline__time">2:30 petang</span><span class="timeline__event">Majlis potong kek &amp; batal air</span></li>
+        <li><span class="timeline__time">4:00 petang</span><span class="timeline__event">Majlis bersurai</span></li>
+      </ul>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section reveal center card">
+      <p class="section__label">Pengesahan Kehadiran</p>
+      <p class="body body--sm">Mohon sahkan kehadiran anda sebelum 1 November 2026.</p>
+      <form id="rsvpForm" class="form" novalidate>
+        <label class="field">
+          <span class="field__label">Nama penuh</span>
+          <input type="text" name="name" required autocomplete="name" placeholder="Nama anda" />
+        </label>
+        <div class="field">
+          <span class="field__label">Kehadiran</span>
+          <div class="choice">
+            <label><input type="radio" name="attending" value="hadir" required /> <span>Hadir</span></label>
+            <label><input type="radio" name="attending" value="tidak" /> <span>Tidak Hadir</span></label>
+          </div>
+        </div>
+        <label class="field" id="paxField">
+          <span class="field__label">Bilangan hadir (termasuk anda)</span>
+          <input type="number" name="pax" min="1" max="20" value="1" inputmode="numeric" />
+        </label>
+        <button type="submit" class="btn btn--solid">Hantar Pengesahan</button>
+        <p class="form__note" id="rsvpNote" hidden></p>
+      </form>
+    </section>
+
+    <!-- Ucapan / Guestbook -->
+    <section class="section reveal center">
+      <p class="section__label">Ucapan &amp; Doa</p>
+      <form id="wishForm" class="form">
+        <label class="field">
+          <span class="field__label">Nama</span>
+          <input type="text" name="wname" required placeholder="Nama anda" />
+        </label>
+        <label class="field">
+          <span class="field__label">Ucapan</span>
+          <textarea name="wmsg" rows="3" required placeholder="Titipkan doa &amp; ucapan..."></textarea>
+        </label>
+        <button type="submit" class="btn btn--solid">Kirim Ucapan</button>
+      </form>
+      <ul class="wishes" id="wishList" aria-live="polite"></ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section reveal center">
+      <p class="section__label">Hubungi Kami</p>
+      <div class="contacts">
+        <div class="contact">
+          <p class="contact__name">Encik Ahmad Kamal <span>(Bapa)</span></p>
+          <div class="btn-row btn-row--tight">
+            <a class="btn btn--mini" href="tel:+60123456789"><span class="btn__icon">&#128222;</span> Panggil</a>
+            <a class="btn btn--mini" href="https://wa.me/60123456789" target="_blank" rel="noopener"><span class="btn__icon">&#128172;</span> WhatsApp</a>
+          </div>
+        </div>
+        <div class="contact">
+          <p class="contact__name">Puan Rohana <span>(Ibu)</span></p>
+          <div class="btn-row btn-row--tight">
+            <a class="btn btn--mini" href="tel:+60139876543"><span class="btn__icon">&#128222;</span> Panggil</a>
+            <a class="btn btn--mini" href="https://wa.me/60139876543" target="_blank" rel="noopener"><span class="btn__icon">&#128172;</span> WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing -->
+    <footer class="section reveal center closing">
+      <div class="divider"><span></span>&#10047;<span></span></div>
+      <p class="body">
+        &ldquo;Semoga Allah memberkati kalian berdua, dan mengumpulkan kalian dalam kebaikan.&rdquo;
+      </p>
+      <p class="closing__couple">Aisyah &amp; Danial</p>
+      <p class="closing__credit">Dengan kasih &amp; kesyukuran</p>
+    </footer>
+  </main>
+
+  <!-- SVG symbol defs -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="floral-corner" viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+        <path d="M8 8 C 8 40, 40 8, 40 40" />
+        <path d="M8 8 C 40 8, 8 40, 40 40" />
+        <path d="M8 8 C 8 60, 60 8, 70 30" />
+        <path d="M70 30 q -6 -12 6 -18" />
+        <path d="M70 30 q 12 -6 18 6" />
+        <circle cx="70" cy="30" r="3" fill="currentColor" stroke="none" />
+        <path d="M30 70 q -12 -6 -18 6" />
+        <path d="M30 70 q -6 12 6 18" />
+        <circle cx="30" cy="70" r="3" fill="currentColor" stroke="none" />
+        <path d="M8 8 C 60 8, 8 60, 30 70" />
+        <ellipse cx="24" cy="24" rx="4" ry="9" transform="rotate(45 24 24)" fill="currentColor" stroke="none" opacity="0.55" />
+        <ellipse cx="50" cy="18" rx="3" ry="7" transform="rotate(70 50 18)" fill="currentColor" stroke="none" opacity="0.5" />
+        <ellipse cx="18" cy="50" rx="3" ry="7" transform="rotate(20 18 50)" fill="currentColor" stroke="none" opacity="0.5" />
+      </g>
+    </symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
