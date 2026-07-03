@@ -1,12 +1,12 @@
 /* ============================================================
-   Aisyah & Danial — invitation logic
+   Asiah & Hakim — invitation logic
    Cover unlock · countdown · scroll reveal · RSVP + guestbook
    (localStorage demo — swap store* fns for a real endpoint later)
    ============================================================ */
 (function () {
   "use strict";
 
-  var EVENT_DATE = new Date("2026-11-15T11:00:00+08:00");
+  var EVENT_DATE = new Date("2026-11-07T11:00:00+08:00");
   var LS_RSVP  = "invite.rsvp.v1";
   var LS_WISH  = "invite.wishes.v1";
 
